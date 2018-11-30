@@ -1,0 +1,23 @@
+package javarank.com.send_location_using_service.models;
+
+public class Location {
+
+    private double Latitude;
+    private double Longitude;
+
+    public double getLatitude() {
+        return Latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        Latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return Longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        Longitude = longitude;
+    }
+}
